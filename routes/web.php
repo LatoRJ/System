@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 
-
 // Login Page
 Route::get('/logintest', function () {
     return view('logintest');
@@ -23,8 +22,8 @@ Route::get('/admin', function () {
     return view('admin');
 })->name('admin');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/product-stock', function () {
+    return view('product-stock');
+})->name('product-stock');
 
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');
