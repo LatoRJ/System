@@ -18,12 +18,12 @@ Route::get('/home', function () {
     return view('home');
 })->name('home');
 
-Route::get('/admin', function () {
-    return view('admin');
-})->name('admin');
+Route::get('/dashboard', function () {
+    return view('admin/dashboard');
+})->name('dashboard');
 
-Route::get('/product-stock', function () {
-    return view('product-stock');
-})->name('product-stock');
+Route::get('/productstocks', function () {
+    return view('admin/productstocks');
+})->name('productstocks');
 
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');

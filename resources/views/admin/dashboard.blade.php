@@ -11,7 +11,7 @@
     <body class="bg-white">
         <x-admin-header />
             <div class="ml-[20%] p-6">
-                <h1 class="text-2xl font-bold text-gray-700">Welcome to the Admin Dashboard</h1>
+                <h1 class="text-3xl font-bold text-gray-700 mb-6">Dashboard</h1>
                 <p class="text-gray-600">Here you can manage your data and monitor performance.</p>
             </div>
     </body>
