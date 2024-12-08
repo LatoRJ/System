@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\OrderController;
 
 // Login Page
 Route::get('/logintest', function () {
@@ -26,4 +27,5 @@ Route::get('/productstocks', function () {
     return view('admin/productstocks');
 })->name('productstocks');
 
+Route::get('/orders', [OrderController::class, 'index'])->name('orders.index');
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');

@@ -17,7 +17,7 @@ class Order extends Model
         'Total_Amount',
         'Order_Status',
     ];
-
+    /*
     public function customer()
     {
         return $this->belongsTo(Customer::class, 'Customer_ID', 'Customer_ID');
@@ -32,5 +32,6 @@ class Order extends Model
     {
         return $this->hasMany(Payment::class, 'Order_ID', 'Order_ID');
     }
-}
+    */
 
+}
