@@ -13,7 +13,7 @@
         <div class="ml-[20%] p-6">
         <h1 class="text-3xl font-bold text-gray-700 mb-6">Order Lists</h1>
             <!-- Filters Section -->
-            <div class="flex items-center bg-gray-50 px-8 py-4 rounded-md shadow-sm mb-6 w-[1356px]">
+            <div class="flex items-center bg-gray-100 px-8 py-4 rounded-md shadow-sm mb-6 w-[600px]">
                 <div class="flex items-center space-x-8 w-full">
                     <button class="flex items-center text-gray-700 font-medium">
                         <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">

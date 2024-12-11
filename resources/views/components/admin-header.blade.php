@@ -28,7 +28,7 @@
                 <i class="bx bx-bell text-2xl"></i>
             </button>
             <div class="flex items-center space-x-2">
-                <button id="dropdownAvatarNameButton" data-dropdown-toggle="dropdownAvatarName" class="flex items-center text-sm font-medium text-gray-700 rounded-full hover:text-blue-500 focus:ring-4 focus:ring-gray-100 dark:text-gray-300 dark:hover:text-blue-400 dark:focus:ring-gray-700" type="button">
+                <button id="dropdownAvatarNameButton" data-dropdown-toggle="dropdownAvatarName" class="flex items-center text-sm font-medium text-black rounded-full hover:text-blue-600 focus:ring-4 focus:ring-blue-500 dark:hover:text-blue-400" type="button">
                     <span class="sr-only">Open user menu</span>
                         <img class="w-8 h-8 rounded-full" src="img/Iphone.png" alt="user photo">
                     <span class="ml-2">Bonnie Green</span>
@@ -38,21 +38,21 @@
                 </button>
 
                 <!-- Dropdown menu -->
-                <div id="dropdownAvatarName" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute top-full mt-2 right-0">
-                    <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
+                <div id="dropdownAvatarName" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-100 dark:divide-gray-600 absolute top-full mt-2 right-0">
+                    <div class="px-4 py-3 text-sm text-black">
                         <div class="font-medium">John Doe</div>
                         <div class="truncate">Admin</div>
                     </div>
-                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
+                    <ul class="py-2 text-sm text-black">
                         <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-blue-600 dark:hover:text-white">Settings</a>
                         </li>
                         <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-blue-600 dark:hover:text-white">Earnings</a>
                         </li>
                     </ul>
                     <div class="py-2">
-                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                        <a href="#" class="block px-4 py-2 text-sm text-black hover:bg-blue dark:hover:bg-blue-600 dark:hover:text-white">Sign out</a>
                     </div>
                 </div>
             </div>

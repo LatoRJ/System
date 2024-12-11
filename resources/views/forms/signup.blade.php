@@ -71,7 +71,7 @@
                 <p class="text-sm text-center text-gray-500 mt-6">
                     Already have an account? 
                     <!-- ROUTE -->
-                    <a href="/logintest" class="font-medium text-[#22303F] hover:text-[#394A56]">Login</a>
+                    <a href="/login" class="font-medium text-[#22303F] hover:text-[#394A56]">Login</a>
                 </p>
             </div>
         </div>

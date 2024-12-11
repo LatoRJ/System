@@ -12,6 +12,7 @@
         <x-admin-header />
         <div class="ml-[20%] p-6">
             <h1 class="text-3xl font-bold text-gray-700 mb-6">Product Stocks</h1>
+            
             <table class="min-w-full bg-white border border-gray-200 rounded-lg shadow-sm">
                 <thead class="bg-gray-100 border-b border-gray-200">
                     <tr>

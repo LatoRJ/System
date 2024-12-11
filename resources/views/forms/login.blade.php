@@ -13,6 +13,7 @@
     </style>
 </head>
     <body class="min-h-screen flex items-center justify-center">
+        
         <!-- WHOLE CONTAINER-->
         <div class="bg-[#E7E8E7] shadow-lg rounded-lg w-[1200px] h-[650px] flex relative">
             <!--LEFT SIDE CONTAINER -->
