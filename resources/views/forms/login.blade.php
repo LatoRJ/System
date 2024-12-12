@@ -30,10 +30,20 @@
                             class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#394A56]" required>
                     </div>
                     <!-- PASSWORD -->
-                    <div>
+                    <div class="relative">
                         <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
-                        <input type="password" name="password" id="password" placeholder="Enter Password"
-                            class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#394A56]" required>
+                        <div class="relative">
+                            <!-- Password Input -->
+                            <input type="password" name="password" id="password" placeholder="Enter Password"
+                                class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#394A56]" required>
+                            
+                            <!-- Toggle Button with SVG Icon -->
+                            <button type="button" onclick="togglePassword()" class="absolute inset-y-0 right-0 px-3 flex items-center">
+                                <svg id="toggle-icon" class="toggle-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                                    <path id="eye-path" fill="gray" d="M8.073 12.194L4.212 8.333c-1.52 1.657-2.096 3.317-2.106 3.351L2 12l.105.316C2.127 12.383 4.421 19 12.054 19c.929 0 1.775-.102 2.552-.273l-2.746-2.746a3.987 3.987 0 0 1-3.787-3.787M12.054 5c-1.855 0-3.375.404-4.642.998L3.707 2.293L2.293 3.707l18 18l1.414-1.414l-3.298-3.298c2.638-1.953 3.579-4.637 3.593-4.679l.105-.316l-.105-.316C21.98 11.617 19.687 5 12.054 5m1.906 7.546c.187-.677.028-1.439-.492-1.96s-1.283-.679-1.96-.492L10 8.586A3.96 3.96 0 0 1 12.054 8c2.206 0 4 1.794 4 4a3.94 3.94 0 0 1-.587 2.053z"/>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                     <!--REMEMBER ME AND FORGOT PASSWORD -->
                     <div class="flex items-center justify-between">

@@ -15,7 +15,7 @@
     <!-- MAIN CONTAINER CONSIST PRODUCT LIST IN HOME CONTENT -->
         <div class="container h-screen mt-8 flex fixed">
             <!-- MAIN CONTAINER SIDEBAR CONSIST OF CATEGORY LIST, BELOW IS CATEGORY CONTAINER-->
-            <div class="w-[20%] h-[100%] bg-white p-6 shadow-md">
+            <div class="w-[20%] h-[100%] bg-[E7E8E7]} p-6 shadow-md">
                 <!-- CATEGORY TITLE -->
                 <h2 class="text-xl font-bold mb-4 text-gray-700">Category</h2>
                 <!-- START OF CATEGORY LIST -->
