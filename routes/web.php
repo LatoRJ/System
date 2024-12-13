@@ -39,6 +39,11 @@ Route::get('/inbox', function () {
     return view('admin.inbox');
 })->name('inbox');
 
+//// ROUTE FOR LANDING PAGE http://127.0.0.1:8000
+Route::get('/invoice', function () {
+    return view('admin.invoice');
+});
+
 // ROUTE FOR ORDER PAGE http://127.0.0.1:8000/orders
 Route::get('/orders', [OrderController::class, 'index'])->name('orders.index');
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');

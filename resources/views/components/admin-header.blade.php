@@ -44,7 +44,7 @@
                     </div>
                     <ul class="py-2 text-sm text-black">
                         <li>
-                            <a href="#" class="flex items-center px-4 py-2 hover:text-white hover:bg-gray-700">
+                            <a href="#" class="flex items-center px-4 py-2 hover:text-blue-500 hover:bg-blue-200">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" viewBox="0 0 24 24">
                                     <defs>
                                         <linearGradient id="gradient-blue-white" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -57,7 +57,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="flex items-center px-4 py-2 hover:text-white hover:bg-gray-700">
+                            <a href="#" class="flex items-center px-4 py-2 hover:text-blue-500 hover:bg-blue-200">
                                 <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
                                     <defs>
                                         <linearGradient id="gradient-pink-white" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -70,7 +70,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="flex items-center px-4 py-2 hover:text-white hover:bg-gray-700">
+                            <a href="#" class="flex items-center px-4 py-2 hover:text-blue-500 hover:bg-blue-200">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 24 24">
                                     <defs>
                                         <linearGradient id="purple-white-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -84,7 +84,7 @@
                         </li>
                     </ul>
                     <div class="py-2">
-                        <a href="/" class="flex items-center px-4 py-2 text-sm hover:text-white hover:bg-gray-700">
+                        <a href="/" class="flex items-center px-4 py-2 text-sm hover:text-black hover:bg-red-300">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 20 20" style="fill: url(#red-white-gradient);">
                                 <defs>
                                     <linearGradient id="red-white-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -147,7 +147,7 @@
 
         <!-- Invoice -->
         <li>
-            <a href="#" class="flex items-center p-2 text-gray-700 hover:text-blue-500 hover:bg-blue-100 rounded-md group transition-colors">
+            <a href="/invoice" class="flex items-center p-2 text-gray-700 hover:text-blue-500 hover:bg-blue-100 rounded-md group transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 transition-colors text-gray-700 group-hover:text-blue-500" viewBox="0 0 24 24">
                     <defs>
                         <mask id="solarCardBold0">
@@ -172,43 +172,10 @@
                 <span class="ml-3 sidebar-text group-hover:text-blue-500">Customer</span>
             </a>
         </li>
-
-
-        <!-- General Setting -->
-        <li>
-            <a href="#" class="flex items-center p-2 text-gray-700 hover:text-blue-500 hover:bg-blue-100 rounded-md group transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="w-6 h-6 transition-colors text-gray-700 group-hover:text-blue-500">
-                    <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
-                    <path fill="currentColor" d="M20.32 9.37h-1.09c-.14 0-.24-.11-.3-.26a.34.34 0 0 1 0-.37l.81-.74a1.63 1.63 0 0 0 .5-1.18 1.67 1.67 0 0 0-.5-1.19L18.4 4.26a1.67 1.67 0 0 0-2.37 0l-.77.74a.38.38 0 0 1-.41 0 .34.34 0 0 1-.22-.29V3.68A1.68 1.68 0 0 0 13 2h-1.94a1.69 1.69 0 0 0-1.69 1.68v1.09c0 .14-.11.24-.26.3a.34.34 0 0 1-.37 0L8 4.26a1.72 1.72 0 0 0-1.19-.5 1.65 1.65 0 0 0-1.18.5L4.26 5.6a1.67 1.67 0 0 0 0 2.4l.74.74a.38.38 0 0 1 0 .41.34.34 0 0 1-.29.22H3.68A1.68 1.68 0 0 0 2 11.05v1.89a1.69 1.69 0 0 0 1.68 1.69h1.09c.14 0 .24.11.3.26a.34.34 0 0 1 0 .37l-.81.74a1.72 1.72 0 0 0-.5 1.19 1.66 1.66 0 0 0 .5 1.19l1.34 1.36a1.67 1.67 0 0 0 2.37 0l.77-.74a.38.38 0 0 1 .41 0 .34.34 0 0 1 .22.29v1.09A1.68 1.68 0 0 0 11.05 22h1.89a1.69 1.69 0 0 0 1.69-1.68v-1.09c0-.14.11-.24.26-.3a.34.34 0 0 1 .37 0l.76.77a1.72 1.72 0 0 0 1.19.5 1.65 1.65 0 0 0 1.18-.5l1.34-1.34a1.67 1.67 0 0 0 0-2.37l-.73-.73a.34.34 0 0 1 0-.37.34.34 0 0 1 .29-.22h1.09A1.68 1.68 0 0 0 22 13v-1.94a1.69 1.69 0 0 0-1.68-1.69M12 15.5a3.5 3.5 0 1 1 3.5-3.5 3.5 3.5 0 0 1-3.5 3.5"/>
-                </svg>
-                <span class="ml-3 sidebar-text group-hover:text-blue-500">General Setting</span>
-            </a>
-        </li>
-
-        <!-- Log Out -->
-        <li>
-            <a href="#" class="flex items-center p-2 text-gray-700 hover:text-blue-500 hover:bg-blue-100 rounded-md group transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="w-6 h-6 transition-colors text-gray-700 group-hover:text-blue-500">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2v10m6.4-5.4a9 9 0 1 1-12.77.04"/>
-                </svg>
-                <span class="ml-3 sidebar-text group-hover:text-blue-500">Log Out</span>
-            </a>
-        </li>
-
     </ul>
 </div>
-<script>
-    const sidebarToggle = document.querySelector("#sidebarToggle");
-    const sidebar = document.querySelector("#sidebar");
-    const sidebarTexts = document.querySelectorAll(".sidebar-text");
 
-    sidebarToggle.addEventListener("click", function () {
-    sidebar.classList.toggle("w-[5%]");
-    sidebar.classList.toggle("w-[20%]");
-    sidebarTexts.forEach((text) => {
-        text.classList.toggle("hidden");
-    });
-});
+<script>
     const dropdownButton = document.getElementById('dropdownAvatarNameButton');
     const dropdownMenu = document.getElementById('dropdownAvatarName');
 
@@ -216,3 +183,15 @@
         dropdownMenu.classList.toggle('hidden');
     });
 </script>
+
+    <!-- const sidebarToggle = document.querySelector("#sidebarToggle");
+    const sidebar = document.querySelector("#sidebar");
+    const sidebarTexts = document.querySelectorAll(".sidebar-text");
+
+    sidebarToggle.addEventListener("click", function () {
+    sidebar.classList.toggle("w-[5%]");
+    sidebar.classList.toggle("w-[20%]");
+    sidebarTexts.forEach((text) => {
+    text.classList.toggle("hidden");
+    });
+}); -->
