@@ -8,7 +8,7 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
     </head>
 
-    <body class="bg-white">
+    <body class="bg-gray-100">
         <x-admin-header />
         <div class="ml-[20%] p-6">
         <h1 class="text-3xl font-bold text-gray-700 mb-6">Order Lists</h1>
